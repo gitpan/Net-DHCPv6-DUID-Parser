@@ -1,0 +1,13 @@
+--- #YAML:1.0
+name:                Net-DHCPv6-DUID-Parser
+version:             1.00
+abstract:            Parse DHCPv6 Unique Identifiers
+license:             ~
+author:              
+    - Tom Wright <twright@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.44
+distribution_type:   module
+requires:     
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
