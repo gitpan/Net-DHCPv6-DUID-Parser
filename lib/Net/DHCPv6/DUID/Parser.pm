@@ -26,7 +26,7 @@ package Net::DHCPv6::DUID::Parser;
 # authors and should not be interpreted as representing official policies, either expressed
 # or implied, of Tom Wright.
 
-our $VERSION = "1.00";
+our $VERSION = "1.01";
 
 use strict;
 use warnings;
@@ -69,7 +69,10 @@ Object oriented interface to parse RFC3315
 compliant DHCPv6 Unique Identifiers (DUIDs)
 
 This module was written for the purpose of
-splitting the DUID into its constituent parts.
+splitting the DUID into its constituent parts,
+and shared here for convenience.  It does
+some textual conversions that may save you
+some time.
 
 =cut
 
@@ -462,6 +465,9 @@ sub _decode_type {
   return unpack ("n",pack("H*",$duid));
 }
 
+=head1 CREDITS
+
+Mark Smith
 
 =head1 SEE ALSO
 
